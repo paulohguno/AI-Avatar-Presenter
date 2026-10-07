@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "motion-graphics": {
+      "source": "Mort1d/motion-graphics-skills",
+      "sourceType": "github",
+      "skillPath": "skills/motion-graphics/SKILL.md",
+      "computedHash": "0bae66d5fb174a0ab7e34f869654bd5760bb2e792a775bd888061a3885ed4549"
+    }
+  }
+}
