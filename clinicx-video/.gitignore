@@ -1,0 +1,7 @@
+out/
+.cache/
+.venv/
+__pycache__/
+# the site scan carries the hacked site's hidden spam footer as text — regenerate with site-kit.mjs
+brand/site.md
+brand/site.json

@@ -1,0 +1,61 @@
+/* Brand tokens and shared pieces. Every value that moves is set per frame from JS (engine.js set()); CSS here only
+   describes how things look at rest. Clinicx brand tokens (brief.md). */
+:root {
+  /* Clinicx: the Instagram's deep navy ground, the site's white UI cards, brand blue and the X's green.
+     The problem act repaints the ground near-black and uses the site's #CC3366 as its only colour. */
+  --bg: #071435;
+  --bg-2: #0d2463;
+  --text: #ffffff;
+  --accent: #60de80;     /* the X — the key word of every solution line, the free-trial badges */
+  --accent-2: #2f7fdd;   /* brand blue — the wordmark, light fields */
+  --blue-btn: #2a6df6;
+  --problem: #cc3366;
+  --dark: #0a0d16;
+  --muted: #9fb1d6;
+  --ink: #1d2433;        /* text on white cards */
+  --glass: color-mix(in srgb, var(--text) 6%, transparent);
+  --line: color-mix(in srgb, var(--text) 12%, transparent);
+  --card: #ffffff;
+  --card-edge: rgba(255, 255, 255, .9);
+  --pill: color-mix(in srgb, var(--bg-2) 92%, transparent);
+  --shadow: 0 40px 110px rgba(2, 8, 30, .6);
+  --vignette: rgba(2, 6, 22, .55);
+  --glow: color-mix(in srgb, var(--accent) 55%, transparent);
+  --glow-2: color-mix(in srgb, var(--accent) 25%, transparent);
+  --display: 'Poppins', 'Arial', sans-serif;
+  --mono: 'Mono', ui-monospace, monospace;
+}
+
+html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }
+body { -webkit-font-smoothing: antialiased; }
+#stage { position: relative; overflow: hidden; background: var(--bg); color: var(--text); font-family: var(--display); }
+#debug { position: fixed; left: 10px; bottom: 8px; font: 600 20px/1 var(--mono); color: #0f0; z-index: 99; display: none; text-shadow: 0 0 3px #000; }
+body.debug #debug { display: block; }
+
+.abs { position: absolute; left: 0; top: 0; }
+.scene, .layer { position: absolute; inset: 0; overflow: hidden; perspective: 2200px; }
+img { display: block; user-select: none; }
+svg { overflow: visible; display: block; }
+
+/* kinetic type: heavy caps that slam on the beat */
+.kin { position: absolute; left: 0; top: 0; font: 800 160px/1 var(--display); letter-spacing: -0.03em; white-space: nowrap; text-transform: uppercase; }
+.ch { display: inline-block; will-change: transform; }
+.accent { color: var(--accent); }
+.glow { text-shadow: 0 0 28px var(--glow), 0 0 90px var(--glow-2); }
+.mono { font-family: var(--mono); }
+.caps { font: 700 26px/1 var(--display); letter-spacing: 0.4em; text-transform: uppercase; white-space: nowrap; }
+
+/* a glass card (feature, number, UI panel) */
+.card { position: absolute; left: 0; top: 0; border-radius: 28px; background: var(--card); color: var(--ink);
+  box-shadow: var(--shadow); }
+.ui { position: absolute; left: 0; top: 0; filter: drop-shadow(0 30px 60px rgba(2, 8, 30, .55)); }
+.prob { color: var(--problem); }
+.green { color: var(--accent); }
+.blue { color: var(--accent-2); }
+.pill { position: absolute; left: 0; top: 0; display: flex; align-items: center; gap: 16px; border-radius: 999px; background: var(--pill);
+  border: 1.5px solid var(--line); white-space: nowrap; color: var(--text); }
+.pill i { display: grid; place-items: center; border-radius: 50%; background: var(--accent); }
+
+/* finishing, above every scene */
+.vignette { position: absolute; inset: 0; pointer-events: none; z-index: 50; background: radial-gradient(ellipse 75% 70% at 50% 50%, transparent 55%, var(--vignette) 100%); }
+.flash { position: absolute; inset: 0; pointer-events: none; z-index: 60; background: #fff; opacity: 0; }

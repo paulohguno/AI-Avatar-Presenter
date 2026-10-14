@@ -1,0 +1,20 @@
+{
+  "voice": "pt-BR-AntonioNeural",
+  "rate": "+6%",
+  "pitch": "-2Hz",
+  "note": "Clinicx is written 'Clínix' so the voice says it as one word (cli-nics), not 'clínic xis'. The site address is spelled out the same way.",
+  "lines": [
+    ["hook", "Sua clínica está perdendo dinheiro. Todos os dias."],
+    ["chaos", "Paciente que falta e não avisa. Orçamento esquecido na gaveta. WhatsApp lotado, sem resposta."],
+    ["broke", "E no fim do mês... a conta não fecha."],
+    ["turn", "E se a sua clínica trabalhasse por você, vinte e quatro horas por dia?"],
+    ["reveal", "Conheça a Clínix. Gestão inteligente para clínicas e consultórios."],
+    ["agents", "Agentes automáticos confirmam consultas, recuperam faltosos e trazem de volta orçamentos não aprovados. Tudo pelo WhatsApp."],
+    ["flow", "Pro paciente, é simples: baixa o app, escolhe a clínica, solicita a consulta. E pronto: atendimento realizado."],
+    ["notify", "Lembretes, termos, receitas e pagamentos chegam direto no celular dele."],
+    ["platform", "E pra você: agenda, prontuário digital, financeiro e CRM. Tudo em um só lugar."],
+    ["crc", "Chega de orçamentos esquecidos. Quem é lembrado, é escolhido."],
+    ["plans", "Planos a partir de setenta e nove e noventa por mês. Com sete dias grátis pra testar."],
+    ["cta", "Clínix. Comece agora em clínix ponto app ponto bê érre."]
+  ]
+}

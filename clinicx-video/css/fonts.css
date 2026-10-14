@@ -1,0 +1,9 @@
+/* Poppins — the site's typeface (SIL OFL 1.1, assets/fonts/Poppins-OFL.txt, from github.com/google/fonts).
+   JetBrains Mono stays for the odd figure. main.js loads every face declared here before the scenes are built. */
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; src: url(../assets/fonts/Poppins-Regular.ttf) format('truetype'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 500; src: url(../assets/fonts/Poppins-Medium.ttf) format('truetype'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 600; src: url(../assets/fonts/Poppins-SemiBold.ttf) format('truetype'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 700; src: url(../assets/fonts/Poppins-Bold.ttf) format('truetype'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 800; src: url(../assets/fonts/Poppins-ExtraBold.ttf) format('truetype'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 900; src: url(../assets/fonts/Poppins-Black.ttf) format('truetype'); }
+@font-face { font-family: 'Mono'; font-style: normal; font-weight: 700; src: url(../assets/fonts/JetBrainsMono-Bold.ttf) format('truetype'); }
