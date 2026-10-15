@@ -1,6 +1,6 @@
 
 ---
-name: agent-harness-avatar
+ agent-harness-avatar
 description: Cria vídeos motion com avatares de IA para apresentar produtos, serviços e negócios, usando ferramentas e recursos disponíveis localmente, sem depender de APIs externas.
 ---
 
