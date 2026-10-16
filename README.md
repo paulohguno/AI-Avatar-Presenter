@@ -7,6 +7,7 @@ description: Cria vídeos motion com avatares de IA para apresentar produtos, se
 # Agent Harness Avatar
 
 Skill especializada na criação de vídeos de apresentação com avatares de IA, motion design e narração para negócios, produtos e serviços.
+Necessario agent CLI para uso e geração de imagem via VEO 
 
 ## Objetivo
 
